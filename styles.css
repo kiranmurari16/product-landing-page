@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+/* Navigation */
+.nav {
+    background: #005bb5;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Features Section */
+.features {
+    padding: 2rem 0;
+    text-align: center;
+    background: #fff;
+}
+
+.features .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.features .column {
+    flex: 1 1 calc(33.333% - 2rem);
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.features .column:hover {
+    transform: scale(1.05);
+}
+
+.features img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 2rem 0;
+    background: #f4f4f9;
+    text-align: center;
+}
+
+.gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery img {
+    width: calc(33.333% - 1rem);
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.reviews blockquote {
+    font-style: italic;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #0078d7;
+    margin: 1rem auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem 0;
+    background: #f4f4f9;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact input, .contact textarea, .contact button {
+    width: 90%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact button {
+    background: #0078d7;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition:  0.2s;
+}
+
+.contact button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
